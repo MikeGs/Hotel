@@ -119,11 +119,23 @@
     <Compile Include="View\AfegirHoste.Designer.cs">
       <DependentUpon>AfegirHoste.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\AfegirPlanta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegirPlanta.Designer.cs">
+      <DependentUpon>AfegirPlanta.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Clients.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Clients.Designer.cs">
       <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AfegeixTipusHabitacio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegeixTipusHabitacio.Designer.cs">
+      <DependentUpon>AfegeixTipusHabitacio.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Menuprincipal.cs">
       <SubType>Form</SubType>
@@ -141,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Clients.resx">
       <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegeixTipusHabitacio.resx">
+      <DependentUpon>AfegeixTipusHabitacio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
