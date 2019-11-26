@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\View"
   ],
-  "SelectedNode": "\\Dual_Hotel_EX3.sln",
+  "SelectedNode": "\\View\\Clients.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Dual_Hotel_EX3.Controller
 {
@@ -12,6 +13,8 @@ namespace Dual_Hotel_EX3.Controller
     {
 
         Clients cl = new Clients();
+
+        BindingSource clientsBinding = new BindingSource();
 
         public ClientsController() {
 
@@ -25,8 +28,9 @@ namespace Dual_Hotel_EX3.Controller
 
         private void fillClientsGrid()
         {
-            
-            //cl.clientsGrid.DataSource = ClientsRepository.
+
+            clientsBinding.DataSource = ClientsRepository.getClients();
+            cl.clientsGrid.DataSource = clientsBinding;
 
         }
     }

@@ -19,7 +19,18 @@ namespace Dual_Hotel_EX3.Model
         {
             this.Ocupacios = new HashSet<Ocupacio>();
         }
-    
+
+        public Hoste(string nom, string dNIPasaport, string telefon, string nacionalitat, string adreca, int codipostal, string poblacio)
+        {
+            this.Nom = nom;
+            this.DNIPasaport = dNIPasaport;
+            this.Telefon = telefon;
+            this.Nacionalitat = nacionalitat;
+            this.Adreca = adreca;
+            this.Codipostal = codipostal;
+            this.Poblacio = poblacio;
+        }
+
         public int IDHoste { get; set; }
         public string Nom { get; set; }
         public string DNIPasaport { get; set; }

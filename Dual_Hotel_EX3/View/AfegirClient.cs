@@ -33,7 +33,7 @@ namespace Dual_Hotel_EX3.View
 
             Console.WriteLine(c.Nom);
 
-            c = ClientRepository.InsertClient(c);
+            c = ClientsRepository.InsertClient(c);
 
             if (c != null) {
                 this.Hide();

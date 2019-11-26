@@ -193,6 +193,7 @@
             this.dniErrorLabel.Size = new System.Drawing.Size(63, 13);
             this.dniErrorLabel.TabIndex = 21;
             this.dniErrorLabel.Text = "DNI Repetit";
+            this.dniErrorLabel.Visible = false;
             // 
             // label1
             // 
@@ -203,6 +204,7 @@
             this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 22;
             this.label1.Text = "Nom complet repetit";
+            this.label1.Visible = false;
             // 
             // AfegirHoste
             // 
