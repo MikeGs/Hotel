@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Dual_Hotel_EX3.View
 {
-    public partial class AfegirPlanta : Form
+    public partial class HabitacionsHotel : Form
     {
-        public AfegirPlanta()
+        public HabitacionsHotel()
         {
             InitializeComponent();
         }
 
-        private void AfegirPlanta_Load(object sender, EventArgs e)
+        private void HabitacionsHotel_Load(object sender, EventArgs e)
         {
 
         }

@@ -75,9 +75,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 256);
+            this.button1.Location = new System.Drawing.Point(31, 245);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 23);
+            this.button1.Size = new System.Drawing.Size(168, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "Assigna";
             this.button1.UseVisualStyleBackColor = true;

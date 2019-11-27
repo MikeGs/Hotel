@@ -125,6 +125,12 @@
     <Compile Include="View\AfegirPlanta.Designer.cs">
       <DependentUpon>AfegirPlanta.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\AfegirReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegirReserva.Designer.cs">
+      <DependentUpon>AfegirReserva.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Clients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,12 @@
     </Compile>
     <Compile Include="View\AfegeixTipusHabitacio.Designer.cs">
       <DependentUpon>AfegeixTipusHabitacio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HabitacionsHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HabitacionsHotel.Designer.cs">
+      <DependentUpon>HabitacionsHotel.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Menuprincipal.cs">
       <SubType>Form</SubType>
@@ -151,11 +163,20 @@
     <EmbeddedResource Include="View\AfegirHoste.resx">
       <DependentUpon>AfegirHoste.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegirPlanta.resx">
+      <DependentUpon>AfegirPlanta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegirReserva.resx">
+      <DependentUpon>AfegirReserva.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Clients.resx">
       <DependentUpon>Clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\AfegeixTipusHabitacio.resx">
       <DependentUpon>AfegeixTipusHabitacio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HabitacionsHotel.resx">
+      <DependentUpon>HabitacionsHotel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
