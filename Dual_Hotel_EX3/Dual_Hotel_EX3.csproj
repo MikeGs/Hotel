@@ -55,7 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\AfegirHosteController.cs" />
     <Compile Include="Controller\ClientsController.cs" />
+    <Compile Include="Controller\CommonController.cs" />
     <Compile Include="Controller\MainController.cs" />
     <Compile Include="Model\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>

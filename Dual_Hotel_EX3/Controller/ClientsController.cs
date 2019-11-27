@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Dual_Hotel_EX3.Controller
 {
-    public class ClientsController
+    public class ClientsController : CommonController
     {
 
         Clients cl = new Clients();
