@@ -55,6 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\AfegeixTipusHabitacioController.cs" />
+    <Compile Include="Controller\AfegirClientController.cs" />
+    <Compile Include="Controller\AfegirHosteController.cs" />
+    <Compile Include="Controller\AfegirNouServeiController.cs" />
     <Compile Include="Controller\ClientsController.cs" />
     <Compile Include="Controller\MainController.cs" />
     <Compile Include="Model\Client.cs">
