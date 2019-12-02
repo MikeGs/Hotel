@@ -43,6 +43,7 @@ namespace Dual_Hotel_EX3.Controller
 
             hl.hostesGrid.Columns[1].Name = "DNI / Passaport";
             hl.hostesGrid.Columns[1].DataPropertyName = "DNIPasaport";
+            hl.hostesGrid.Columns[1].Width = 150;
 
             hl.hostesGrid.Columns[2].Name = "Telèfon";
             hl.hostesGrid.Columns[2].DataPropertyName = "Telefon";

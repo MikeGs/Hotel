@@ -38,6 +38,7 @@
             this.hostesGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.hostesGrid.Location = new System.Drawing.Point(12, 56);
             this.hostesGrid.Name = "hostesGrid";
+            this.hostesGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.hostesGrid.Size = new System.Drawing.Size(817, 368);
             this.hostesGrid.TabIndex = 3;
             // 
