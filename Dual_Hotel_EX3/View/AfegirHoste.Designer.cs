@@ -46,12 +46,14 @@
             this.poblacioInput = new System.Windows.Forms.TextBox();
             this.dniErrorLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.genere = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // afegirClientB
             // 
             this.afegirClientB.Enabled = false;
-            this.afegirClientB.Location = new System.Drawing.Point(177, 384);
+            this.afegirClientB.Location = new System.Drawing.Point(177, 417);
             this.afegirClientB.Name = "afegirClientB";
             this.afegirClientB.Size = new System.Drawing.Size(75, 23);
             this.afegirClientB.TabIndex = 7;
@@ -139,7 +141,7 @@
             // adrecaLabel
             // 
             this.adrecaLabel.AutoSize = true;
-            this.adrecaLabel.Location = new System.Drawing.Point(22, 243);
+            this.adrecaLabel.Location = new System.Drawing.Point(22, 277);
             this.adrecaLabel.Name = "adrecaLabel";
             this.adrecaLabel.Size = new System.Drawing.Size(44, 13);
             this.adrecaLabel.TabIndex = 16;
@@ -147,7 +149,7 @@
             // 
             // adrecaInput
             // 
-            this.adrecaInput.Location = new System.Drawing.Point(25, 259);
+            this.adrecaInput.Location = new System.Drawing.Point(25, 293);
             this.adrecaInput.Name = "adrecaInput";
             this.adrecaInput.Size = new System.Drawing.Size(227, 20);
             this.adrecaInput.TabIndex = 15;
@@ -155,7 +157,7 @@
             // codiPostalLabel
             // 
             this.codiPostalLabel.AutoSize = true;
-            this.codiPostalLabel.Location = new System.Drawing.Point(22, 292);
+            this.codiPostalLabel.Location = new System.Drawing.Point(22, 326);
             this.codiPostalLabel.Name = "codiPostalLabel";
             this.codiPostalLabel.Size = new System.Drawing.Size(62, 13);
             this.codiPostalLabel.TabIndex = 18;
@@ -163,7 +165,7 @@
             // 
             // codiPostalInput
             // 
-            this.codiPostalInput.Location = new System.Drawing.Point(25, 308);
+            this.codiPostalInput.Location = new System.Drawing.Point(25, 342);
             this.codiPostalInput.Name = "codiPostalInput";
             this.codiPostalInput.Size = new System.Drawing.Size(227, 20);
             this.codiPostalInput.TabIndex = 17;
@@ -171,7 +173,7 @@
             // poblacioLabel
             // 
             this.poblacioLabel.AutoSize = true;
-            this.poblacioLabel.Location = new System.Drawing.Point(21, 342);
+            this.poblacioLabel.Location = new System.Drawing.Point(21, 376);
             this.poblacioLabel.Name = "poblacioLabel";
             this.poblacioLabel.Size = new System.Drawing.Size(51, 13);
             this.poblacioLabel.TabIndex = 20;
@@ -179,7 +181,7 @@
             // 
             // poblacioInput
             // 
-            this.poblacioInput.Location = new System.Drawing.Point(24, 358);
+            this.poblacioInput.Location = new System.Drawing.Point(24, 392);
             this.poblacioInput.Name = "poblacioInput";
             this.poblacioInput.Size = new System.Drawing.Size(227, 20);
             this.poblacioInput.TabIndex = 19;
@@ -204,11 +206,91 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Nom complet repetit";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(25, 236);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Genere:";
+            // 
+            // genere
+            // 
+            this.genere.FormattingEnabled = true;
+            this.genere.Items.AddRange(new object[] {
+            "Heterosexual",
+            "Homosexual ",
+            "Lesbian",
+            "Bisexual",
+            "Pansexual",
+            "Bicurious",
+            "Polysexual",
+            "Monosexual",
+            "Allosexual",
+            "Androsexual",
+            "Gynosexual",
+            "Questioning",
+            "Asexual",
+            "Demisexual",
+            "Grey Asexual",
+            "Perioriented",
+            "Varioriented",
+            "Heteronormative",
+            "Erasure",
+            "Cishet",
+            "Polyamorous",
+            "Monoamorous",
+            "Queer",
+            "Ally",
+            "Male to Female (MtF)",
+            "Female to Male (FtM)",
+            "Binary",
+            "Non-Binary",
+            "Genderfluid",
+            "Agender",
+            "Bigender",
+            "Polygender",
+            "Neutrois",
+            "Gender Apathetic",
+            "Androgyne",
+            "Intergender",
+            "Demigender",
+            "Greygender",
+            "Aporagender",
+            "Maverique",
+            "Novigender",
+            "Designated gender",
+            "AFAB",
+            "AMAB",
+            "Gender roles",
+            "Gender Presentation",
+            "Transitioning",
+            "Intersex",
+            "Dyadic",
+            "Trans Woman",
+            "Trans Man",
+            "Trans Feminine",
+            "Trans Masculine",
+            "Social Dysphoria",
+            "Body Dysphoria",
+            "Butch",
+            "Femme (Fem)",
+            "Binarism",
+            "Falete",
+            "ESPAÑOL"});
+            this.genere.Location = new System.Drawing.Point(24, 253);
+            this.genere.Name = "genere";
+            this.genere.Size = new System.Drawing.Size(227, 21);
+            this.genere.TabIndex = 24;
+            // 
             // AfegirHoste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 433);
+            this.ClientSize = new System.Drawing.Size(287, 504);
+            this.Controls.Add(this.genere);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dniErrorLabel);
             this.Controls.Add(this.poblacioLabel);
@@ -255,5 +337,7 @@
         private System.Windows.Forms.TextBox poblacioInput;
         private System.Windows.Forms.Label dniErrorLabel;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox genere;
     }
 }

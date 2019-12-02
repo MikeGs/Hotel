@@ -33,3 +33,25 @@ E:\Dual\Git\Dual_EX3\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csproj.CoreCompileI
 E:\Dual\Git\Dual_EX3\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csproj.CopyComplete
 E:\Dual\Git\Dual_EX3\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.exe
 E:\Dual\Git\Dual_EX3\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.pdb
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\Dual_Hotel_EX3.exe.config
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\Dual_Hotel_EX3.exe
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\Dual_Hotel_EX3.pdb
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\EntityFramework.dll
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\EntityFramework.xml
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csprojAssemblyReference.cache
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegirClient.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegirHoste.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegirNouServei.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegirPlanta.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegirReserva.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.Clients.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.AfegeixTipusHabitacio.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.HabitacionsHotel.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.Menuprincipal.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.Properties.Resources.resources
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csproj.GenerateResource.cache
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csproj.CopyComplete
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.exe
+C:\Users\Albert Gonzalez\source\repos\Hotel\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.pdb
