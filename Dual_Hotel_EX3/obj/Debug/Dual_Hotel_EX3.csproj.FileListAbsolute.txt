@@ -51,3 +51,4 @@ E:\Dual\Git\Dual_Hotel_EX3\bin\Debug\EntityFramework.SqlServer.dll
 E:\Dual\Git\Dual_Hotel_EX3\bin\Debug\EntityFramework.xml
 E:\Dual\Git\Dual_Hotel_EX3\bin\Debug\EntityFramework.SqlServer.xml
 E:\Dual\Git\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.csproj.CopyComplete
+E:\Dual\Git\Dual_Hotel_EX3\obj\Debug\Dual_Hotel_EX3.View.Hostes.resources

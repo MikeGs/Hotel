@@ -198,6 +198,7 @@
             this.hostesB.TabIndex = 12;
             this.hostesB.Text = "HOSTES";
             this.hostesB.UseVisualStyleBackColor = true;
+            this.hostesB.Click += new System.EventHandler(this.HostesB_Click);
             // 
             // Menuprincipal
             // 

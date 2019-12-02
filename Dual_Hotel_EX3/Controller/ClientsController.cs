@@ -14,8 +14,6 @@ namespace Dual_Hotel_EX3.Controller
 
         Clients cl = new Clients();
 
-        BindingSource clientsBinding = new BindingSource();
-
         public ClientsController() {
 
             //
@@ -29,8 +27,25 @@ namespace Dual_Hotel_EX3.Controller
         private void fillClientsGrid()
         {
 
-            clientsBinding.DataSource = ClientsRepository.getClients();
-            cl.clientsGrid.DataSource = clientsBinding;
+            try
+            {
+                cl.clientsGrid.ColumnCount = 2;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            cl.clientsGrid.Columns[0].Name = "Nom del client";
+            cl.clientsGrid.Columns[0].DataPropertyName = "nom";
+            cl.clientsGrid.Columns[0].Width = 250;
+            cl.clientsGrid.Columns[1].Name = "idClient";
+            cl.clientsGrid.Columns[1].DataPropertyName = "idClient";
+            cl.clientsGrid.Columns[1].Visible = false;
+
+            cl.clientsGrid.AutoGenerateColumns = false;
+
+            cl.clientsGrid.DataSource = ClientsRepository.getClients();
 
         }
     }

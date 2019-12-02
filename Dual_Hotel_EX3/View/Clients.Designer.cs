@@ -48,14 +48,14 @@
             this.clientsGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.clientsGrid.Location = new System.Drawing.Point(18, 55);
             this.clientsGrid.Name = "clientsGrid";
-            this.clientsGrid.Size = new System.Drawing.Size(368, 368);
+            this.clientsGrid.Size = new System.Drawing.Size(326, 368);
             this.clientsGrid.TabIndex = 1;
             // 
             // Clients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 450);
+            this.ClientSize = new System.Drawing.Size(362, 450);
             this.Controls.Add(this.clientsGrid);
             this.Controls.Add(this.clientsLabel);
             this.Name = "Clients";

@@ -43,5 +43,12 @@ namespace Dual_Hotel_EX3.View
             ClientsController cc = new ClientsController();
 
         }
+
+        private void HostesB_Click(object sender, EventArgs e)
+        {
+
+            HostesController hc = new HostesController();
+
+        }
     }
 }

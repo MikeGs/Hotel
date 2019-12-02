@@ -35,7 +35,7 @@ namespace Dual_Hotel_EX3.Model
         public static List<Client> getClients()
         {
 
-            List<Client> clients = dataContext.Clients.ToList();
+            List<Client> clients = dataContext.Clients.OrderBy(x => x.Nom).ToList();
             return clients;
 
         }

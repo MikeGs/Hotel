@@ -58,6 +58,7 @@
     <Compile Include="Controller\AfegirHosteController.cs" />
     <Compile Include="Controller\ClientsController.cs" />
     <Compile Include="Controller\CommonController.cs" />
+    <Compile Include="Controller\HostesController.cs" />
     <Compile Include="Controller\MainController.cs" />
     <Compile Include="Model\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -127,6 +128,12 @@
     <Compile Include="View\Clients.Designer.cs">
       <DependentUpon>Clients.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Hostes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Hostes.Designer.cs">
+      <DependentUpon>Hostes.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Clients.resx">
       <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Hostes.resx">
+      <DependentUpon>Hostes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
