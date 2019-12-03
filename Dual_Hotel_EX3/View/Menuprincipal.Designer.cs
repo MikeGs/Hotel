@@ -66,6 +66,7 @@
             this.reservesB.TabIndex = 2;
             this.reservesB.Text = "RESERVES";
             this.reservesB.UseVisualStyleBackColor = false;
+            this.reservesB.Click += new System.EventHandler(this.ReservesB_Click);
             // 
             // afegirReservaB
             // 
@@ -78,6 +79,7 @@
             this.afegirReservaB.TabIndex = 3;
             this.afegirReservaB.Text = "+";
             this.afegirReservaB.UseVisualStyleBackColor = true;
+            this.afegirReservaB.Click += new System.EventHandler(this.AfegirReservaB_Click);
             // 
             // clientsB
             // 
@@ -198,6 +200,7 @@
             this.hostesB.TabIndex = 12;
             this.hostesB.Text = "HOSTES";
             this.hostesB.UseVisualStyleBackColor = true;
+            this.hostesB.Click += new System.EventHandler(this.HostesB_Click);
             // 
             // Menuprincipal
             // 

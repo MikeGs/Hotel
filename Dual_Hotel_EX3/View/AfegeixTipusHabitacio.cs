@@ -1,5 +1,4 @@
-﻿using Dual_Hotel_EX3.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,26 +10,24 @@ using System.Windows.Forms;
 
 namespace Dual_Hotel_EX3.View
 {
-    public partial class AfegirHoste : Form
+    public partial class AfegeixTipusHabitacio : Form
     {
-
-        public AfegirHoste()
+        public AfegeixTipusHabitacio()
         {
             InitializeComponent();
         }
 
-
-        private void AfegirClientLabel_Click(object sender, EventArgs e)
+        private void GestioHabitacio_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void NomLabel_Click(object sender, EventArgs e)
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void TelefonInput_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

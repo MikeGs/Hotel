@@ -45,7 +45,7 @@
             this.poblacioLabel = new System.Windows.Forms.Label();
             this.poblacioInput = new System.Windows.Forms.TextBox();
             this.dniErrorLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.nomErrorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // afegirClientB
@@ -57,16 +57,15 @@
             this.afegirClientB.TabIndex = 7;
             this.afegirClientB.Text = "Afegir";
             this.afegirClientB.UseVisualStyleBackColor = true;
-            this.afegirClientB.Click += new System.EventHandler(this.AfegirClientB_Click);
             // 
             // nomCompletLabel
             // 
             this.nomCompletLabel.AutoSize = true;
             this.nomCompletLabel.Location = new System.Drawing.Point(22, 48);
             this.nomCompletLabel.Name = "nomCompletLabel";
-            this.nomCompletLabel.Size = new System.Drawing.Size(32, 13);
+            this.nomCompletLabel.Size = new System.Drawing.Size(72, 13);
             this.nomCompletLabel.TabIndex = 6;
-            this.nomCompletLabel.Text = "Nom:";
+            this.nomCompletLabel.Text = "Nom complet:";
             this.nomCompletLabel.Click += new System.EventHandler(this.NomLabel_Click);
             // 
             // nomCompletInput
@@ -75,7 +74,6 @@
             this.nomCompletInput.Name = "nomCompletInput";
             this.nomCompletInput.Size = new System.Drawing.Size(227, 20);
             this.nomCompletInput.TabIndex = 5;
-            this.nomCompletInput.TextChanged += new System.EventHandler(this.NomInput_TextChanged);
             // 
             // afegirHosteLabel
             // 
@@ -119,6 +117,7 @@
             this.telefonInput.Name = "telefonInput";
             this.telefonInput.Size = new System.Drawing.Size(227, 20);
             this.telefonInput.TabIndex = 11;
+            this.telefonInput.TextChanged += new System.EventHandler(this.TelefonInput_TextChanged);
             // 
             // nacionalitatLabel
             // 
@@ -193,23 +192,25 @@
             this.dniErrorLabel.Size = new System.Drawing.Size(63, 13);
             this.dniErrorLabel.TabIndex = 21;
             this.dniErrorLabel.Text = "DNI Repetit";
+            this.dniErrorLabel.Visible = false;
             // 
-            // label1
+            // nomErrorLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(151, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Nom complet repetit";
+            this.nomErrorLabel.AutoSize = true;
+            this.nomErrorLabel.ForeColor = System.Drawing.Color.Red;
+            this.nomErrorLabel.Location = new System.Drawing.Point(151, 48);
+            this.nomErrorLabel.Name = "nomErrorLabel";
+            this.nomErrorLabel.Size = new System.Drawing.Size(101, 13);
+            this.nomErrorLabel.TabIndex = 22;
+            this.nomErrorLabel.Text = "Nom complet repetit";
+            this.nomErrorLabel.Visible = false;
             // 
             // AfegirHoste
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 433);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.nomErrorLabel);
             this.Controls.Add(this.dniErrorLabel);
             this.Controls.Add(this.poblacioLabel);
             this.Controls.Add(this.poblacioInput);
@@ -236,24 +237,23 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button afegirClientB;
         private System.Windows.Forms.Label nomCompletLabel;
-        private System.Windows.Forms.TextBox nomCompletInput;
         private System.Windows.Forms.Label afegirHosteLabel;
-        private System.Windows.Forms.Label DNIPassaportLabel;
-        private System.Windows.Forms.TextBox DNIPassaportInput;
         private System.Windows.Forms.Label telefonLabel;
-        private System.Windows.Forms.TextBox telefonInput;
         private System.Windows.Forms.Label nacionalitatLabel;
-        private System.Windows.Forms.TextBox nacionalitatInput;
         private System.Windows.Forms.Label adrecaLabel;
-        private System.Windows.Forms.TextBox adrecaInput;
         private System.Windows.Forms.Label codiPostalLabel;
-        private System.Windows.Forms.TextBox codiPostalInput;
         private System.Windows.Forms.Label poblacioLabel;
-        private System.Windows.Forms.TextBox poblacioInput;
-        private System.Windows.Forms.Label dniErrorLabel;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox DNIPassaportInput;
+        private System.Windows.Forms.Label DNIPassaportLabel;
+        public System.Windows.Forms.Label dniErrorLabel;
+        public System.Windows.Forms.TextBox nomCompletInput;
+        public System.Windows.Forms.Label nomErrorLabel;
+        public System.Windows.Forms.TextBox telefonInput;
+        public System.Windows.Forms.TextBox nacionalitatInput;
+        public System.Windows.Forms.TextBox adrecaInput;
+        public System.Windows.Forms.TextBox codiPostalInput;
+        public System.Windows.Forms.TextBox poblacioInput;
+        public System.Windows.Forms.Button afegirClientB;
     }
 }

@@ -55,7 +55,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\AfegeixTipusHabitacioController.cs" />
+    <Compile Include="Controller\AfegirClientController.cs" />
+    <Compile Include="Controller\AfegirHosteController.cs" />
+    <Compile Include="Controller\AfegirNouServeiController.cs" />
+    <Compile Include="Controller\AfegirReservaController.cs" />
     <Compile Include="Controller\ClientsController.cs" />
+    <Compile Include="Controller\CommonController.cs" />
+    <Compile Include="Controller\HostesController.cs" />
     <Compile Include="Controller\MainController.cs" />
     <Compile Include="Model\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -119,11 +126,41 @@
     <Compile Include="View\AfegirHoste.Designer.cs">
       <DependentUpon>AfegirHoste.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\AfegirNouServei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegirNouServei.Designer.cs">
+      <DependentUpon>AfegirNouServei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AfegirPlanta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegirPlanta.Designer.cs">
+      <DependentUpon>AfegirPlanta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AfegirReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AfegirReserva.Designer.cs">
+      <DependentUpon>AfegirReserva.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Clients.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Clients.Designer.cs">
       <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Hostes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Hostes.Designer.cs">
+      <DependentUpon>Hostes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HabitacionsHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HabitacionsHotel.Designer.cs">
+      <DependentUpon>HabitacionsHotel.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Menuprincipal.cs">
       <SubType>Form</SubType>
@@ -139,8 +176,23 @@
     <EmbeddedResource Include="View\AfegirHoste.resx">
       <DependentUpon>AfegirHoste.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegirNouServei.resx">
+      <DependentUpon>AfegirNouServei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegirPlanta.resx">
+      <DependentUpon>AfegirPlanta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AfegirReserva.resx">
+      <DependentUpon>AfegirReserva.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Clients.resx">
       <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Hostes.resx">
+      <DependentUpon>Hostes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HabitacionsHotel.resx">
+      <DependentUpon>HabitacionsHotel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>

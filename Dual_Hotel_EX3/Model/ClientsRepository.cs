@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dual_Hotel_EX3.Model
 {
-    public class ClientRepository
+    public class ClientsRepository
     {
 
         private static hotelEntities dataContext = new hotelEntities();
@@ -25,7 +25,7 @@ namespace Dual_Hotel_EX3.Model
             }
         }
 
-        public ClientRepository()
+        public ClientsRepository()
         {
 
             clients = getClients();
@@ -35,7 +35,7 @@ namespace Dual_Hotel_EX3.Model
         public static List<Client> getClients()
         {
 
-            List<Client> clients = dataContext.Clients.ToList();
+            List<Client> clients = dataContext.Clients.OrderBy(x => x.Nom).ToList();
             return clients;
 
         }

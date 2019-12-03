@@ -17,6 +17,12 @@ namespace Dual_Hotel_EX3.Model
             return h;
         }
 
+        public static List<Hoste> getHostes()
+        {
+            List<Hoste> hostes = dataContext.Hostes.ToList();
+            return hostes;
+        }
+
         public static Hoste InsertHoste(Hoste h)
         {
 

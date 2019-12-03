@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Dual_Hotel_EX3.Controller
 {
-    class MainController
+    class MainController : CommonController
     {
 
         Menuprincipal m;

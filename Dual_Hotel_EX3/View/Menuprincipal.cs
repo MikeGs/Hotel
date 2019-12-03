@@ -28,8 +28,8 @@ namespace Dual_Hotel_EX3.View
 
         private void AfegirHostesB_Click(object sender, EventArgs e)
         {
-            AfegirHoste ah = new AfegirHoste();
-            ah.Show();
+            AfegirHosteController ahc = new AfegirHosteController();
+   
         }
 
         private void UltimesReservesGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -41,6 +41,27 @@ namespace Dual_Hotel_EX3.View
         {
 
             ClientsController cc = new ClientsController();
+
+        }
+
+        private void HostesB_Click(object sender, EventArgs e)
+        {
+
+            HostesController hc = new HostesController();
+
+        }
+
+        private void AfegirReservaB_Click(object sender, EventArgs e)
+        {
+
+            AfegirReservaController arc = new AfegirReservaController();
+
+        }
+
+        private void ReservesB_Click(object sender, EventArgs e)
+        {
+
+
 
         }
     }
